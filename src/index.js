@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import { GlobalStyles } from "../src/styledComponents";
+import { GlobalStyles } from "./styles/GlobalStyles"
 
 import Header from "./components/Header/Header";
 
@@ -14,7 +14,7 @@ import App from './App';
 ReactDOM.render(
   <BrowserRouter>
     <GlobalStyles />
-    <Header/>
+    <Header />
     <App />
   </BrowserRouter>,
   document.getElementById('root')

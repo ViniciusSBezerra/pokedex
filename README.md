@@ -1,0 +1,1 @@
+## Para iniciar o servidor digite npm start, depois de ter realizado um npm install para instalar as dependencias do projeto!

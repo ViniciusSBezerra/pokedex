@@ -1,5 +1,5 @@
 
-import { Header, Logo } from "../../styledComponents"
+import { Header, Logo } from "./styles"
 
 export default function Menu() {
 
@@ -7,7 +7,7 @@ export default function Menu() {
        
         <Header>
             <Logo>
-                <>Pokemon</>
+                Pokemon
             </Logo>
         </Header>
         

@@ -2,13 +2,13 @@ import React from "react";
 
 import { Routes, Route } from "react-router-dom"
 
-import Pokedex from "./pages/TotalPokemons";
+import { Pokedex } from "./pages/TotalPokemons";
 
-function App(){
+function App() {
 
-    return(
+    return (
         <Routes>
-            <Route element={<Pokedex/>} path="/"  />    
+            <Route element={<Pokedex />} path="/" />
         </Routes>
     )
 }
